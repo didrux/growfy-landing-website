@@ -1,7 +1,98 @@
 @import "reset.css";
 
+/* ---------- */
 
 body {
     font-weight: 300;
     font-family: "Poppins";
+    color: #9C9C9C;
+    background-color: #0D0D11;
 }
+
+/* ---------- */
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+}
+
+[class*="__container"] {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.page {
+    flex: 1 1 auto;
+}
+
+.button {
+
+}
+
+/* ---------- */
+/* HEADER */
+
+.header {
+}
+
+.header__container {
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+    min-height: 116px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header__logo {
+}
+
+.header__menu {
+    flex: 1 1 auto;
+}
+
+.menu {
+}
+
+.menu__icon {
+}
+
+.icon-menu {
+    display: none;
+}
+
+.menu__list {
+    display: flex;
+    column-gap: 35px;
+    justify-content: flex-end;
+}
+
+.menu__item {
+}
+
+.menu__link {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.62;
+}
+
+.header__cart {
+}
+
+.cart-header {
+}
+
+.cart-header__text {
+}
+
+.cart-header__quantity {
+}
+
+.header__button {
+}
+
+
+/* ---------- */
