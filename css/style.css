@@ -29,7 +29,21 @@ body {
 }
 
 .button {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 30px;
+    background: #3D96F4;
+    border-radius: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease 0s;
+    line-height: 1.43;
+}
 
+.button:hover {
+    background-color: #68a9f0;
 }
 
 /* ---------- */
