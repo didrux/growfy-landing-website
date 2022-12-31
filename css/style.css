@@ -79,16 +79,39 @@ body {
     line-height: 1.62;
 }
 
+.menu__link:hover {
+    text-decoration: underline;
+}
+
 .header__cart {
 }
 
 .cart-header {
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.cart-header:hover .cart-header__text {
+    text-decoration: underline;
 }
 
 .cart-header__text {
+    font-size: 18px;
+    line-height: 1.55;
 }
 
 .cart-header__quantity {
+    background: rgba(129, 129, 139, 0.3);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .header__button {
