@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -19,7 +19,7 @@
                 <img src="img/logo.svg" alt="logo">
             </a>
             <nav class="header__menu menu">
-                <button class="menu__icon icon-menu" type="button"></button>
+                <div class="menu__body">
                 <ul class="menu__list">
                     <li class="menu__item">
                         <a href="" class="menu__link">Home</a>
@@ -34,12 +34,16 @@
                         <a href="" class="menu__link">Services</a>
                     </li>
                 </ul>
+                </div>
             </nav>
             <a href="" class="header__cart cart-header">
                 <span class="cart-header__text">Cart</span>
                 <span class="cart-header__quantity">0</span>
             </a>
             <a href="" class="header__button button">Get started</a>
+            <button onclick="clickFunc()" class="icon-menu" type="button">
+                <span></span>
+            </button>
         </div>
     </header>
 
