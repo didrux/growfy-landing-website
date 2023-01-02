@@ -489,3 +489,143 @@ body {
     }
 }
 
+/*FOOTER*/
+/*-----------------------------------*/
+
+.footer {
+}
+
+.footer__main {
+}
+
+.main-footer {
+}
+
+.main-footer__container {
+    display: grid;
+    grid-template-columns: minmax(auto, 378px) auto auto minmax(auto, 378px);
+    gap: 64px
+}
+
+.main-footer__column {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main-footer__logo {
+}
+
+.main-footer__text {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.text {
+}
+
+.main-footer__social {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.social {
+}
+
+.social__link {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border: solid 1px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-footer__label {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.main-footer__menu {
+}
+
+.menu-footer {
+}
+
+.menu-footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24.39px;
+}
+
+.menu-footer__item {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.menu-footer__link {
+}
+
+.menu-footer__link:hover {
+    text-decoration: underline;
+}
+
+.main-footer__subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.subscribe__text {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.subscribe__form {
+    display: flex;
+    gap: 16px;
+}
+
+.subscribe__input {
+    padding-left: 28px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    overflow: hidden;
+    border: 1px solid rgba(129, 129, 139, 0.3);
+    border-radius: 50px;
+    flex: 2 0 auto;
+}
+
+.subscribe__input::placeholder {
+    /*padding-left: 32px;*/
+}
+
+.subscribe__button {
+    padding: 16px 24px;
+}
+
+.button {
+}
+
+.footer__bottom {
+}
+
+.bottom-footer {
+}
+
+.bottom-footer__container {
+}
+
+.bottom-footer__copy {
+}
