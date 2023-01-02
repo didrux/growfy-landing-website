@@ -311,6 +311,7 @@ body {
 
 .main {
     padding-top: 160px;
+    padding-bottom: 100px;
 }
 
 .main__container {
@@ -487,3 +488,4 @@ body {
         align-self: stretch;
     }
 }
+
