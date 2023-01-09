@@ -309,6 +309,23 @@ body {
 .page__main {
 }
 
+.page__label {
+    padding: 11px 20px;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1.54;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9C9C9C;
+    border: 1px solid rgba(129, 129, 139, 0.2);
+    border-radius: 12px;
+    margin-bottom: 19px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
 .main {
     padding-top: 160px;
     padding-bottom: 100px;
@@ -790,16 +807,6 @@ body {
 .services__header {
     position: relative;
 }
-
-/*.services__header::before {*/
-/*    content: "";*/
-/*    background: url("../img/main/decor.svg") 0 0 / 100% no-repeat;*/
-/*    width: 122px;*/
-/*    height: 122px;*/
-/*    position: absolute;*/
-/*    top: -10px;*/
-/*    left: -34px;*/
-/*}*/
 
 .header-services {
 }
