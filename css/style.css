@@ -779,7 +779,7 @@ body {
 
 .services__container {
     display: flex;
-    gap: 32px
+    gap: 64px
 }
 
 .services__content {
@@ -897,12 +897,12 @@ body {
 }
 
 .services__blocks {
-    flex: 0 1 50%;
+    flex: 0 1 60%;
 }
 
 .blocks-services {
     display: flex;
-    gap: 9.615385%;
+    gap: 5.615385%;
     justify-content: center;
 }
 
